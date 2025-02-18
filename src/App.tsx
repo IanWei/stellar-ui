@@ -1,5 +1,12 @@
+import { Button } from '@/components/button';
+
+
 function App() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  );
 }
 
 export default App;
